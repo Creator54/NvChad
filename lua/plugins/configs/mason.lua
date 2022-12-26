@@ -15,6 +15,7 @@ vim.api.nvim_create_autocmd("Filetype", {
 
 local options = {
   ensure_installed = { 
+    "nil",
     "lua-language-server",
     "bash-language-server",
     "awk-language-server",
